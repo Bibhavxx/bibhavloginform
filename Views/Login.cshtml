@@ -1,0 +1,22 @@
+﻿@model LoginApp.Models.User
+
+<h2>Login</h2>
+
+<form method="post" asp-action="Login">
+    <div class="mb-3">
+        <label>Username</label>
+        <input type="text" name="Username" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Password</label>
+        <input type="password" name="Password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Login</button>
+    <p class="text-danger">@ViewBag.Message</p>
+</form>
+
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:red;">@ViewBag.Message</p>
+}
