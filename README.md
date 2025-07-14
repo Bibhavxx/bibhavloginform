@@ -17,10 +17,13 @@ Clean and commented code — beginner friendly
 # PROJECT STRUCTURE
 
 /Controllers
+
   └── AccountController.cs
 /Models
+  
   └── User.cs
 /Views
+  
   └── /Account
       ├── Login.cshtml
       └── Welcome.cshtml
