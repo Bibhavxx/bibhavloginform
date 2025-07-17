@@ -41,10 +41,7 @@ aaditya	            aaditya12
 
 You can easily update or add more users in  AccountController.cs.
 
-
-
- #LICENCE
-
+# LICENCE 
 This project is open-source and free to use for learning and experimentation.
 
 
